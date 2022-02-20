@@ -62,7 +62,7 @@ end
 group :development do 
   gem "web-console"
 
-  gem "pg", "~> 1.1"
+  #gem "pg", "~> 1.1"
 
 end 
 
