@@ -71,3 +71,16 @@ end
 gem "pg", "1.1"
 
 # Use postgresql as the database for Active Record
+
+group :development do 
+  gem "web-console"
+
+  gem "pg","~> 1.1"
+
+end 
+
+group :production do 
+ 
+  gem "pg","~> 1.1"
+  
+end 
